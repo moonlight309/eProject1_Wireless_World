@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.Admin {
+  width: 100%;
+  height: 700px;
+}
+
+.NavAdmin {
+  width: 97%;
+  height: 10%;
+  background-color: #b68f8f;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavAdmin .NavAdminLogo > button {
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.NavAdmin .NavAdminLogout > .Logout {
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.NavAdmin .NavAdminLogo > span {
+  font-size: 22px;
+}
+
+.NavAdmin .NavAdminSearch > input {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  width: 500px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.NavAdmin .NavAdminSearch > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.NavAdmin > .NavAdminLogo {
+  display: flex;
+}
+
+.NavAdmin .NavAdminLogout a {
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.Content {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.Content .Menu {
+  width: 15%;
+  height: 100%;
+  background-color: #b68f8f;
+}
+
+.Content .NameTable {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.Content .NameTable:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Content .NameTable .Icon {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 35px;
+  padding-left: 30px;
+  font-size: 22px;
+}
+
+.Content .NameTable .Name {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.Content .Index {
+  width: 85%;
+  height: 91%;
+  background-color: azure;
+  padding: 30px 30px 30px 30px;
+}
+
+.Content .Index .IndexAdmin {
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow-x: hidden;
+}
+
+.Content .Index .IndexImage .NavCreateAdmin,
+.Content .Index .IndexProducts .NavCreateAdmin,
+.Content .Index .IndexBrand .NavCreateAdmin,
+.Content .Index .IndexAdmin .NavCreateAdmin {
+  width: 10%;
+  height: 5%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.Content .Index .IndexImage .NavCreateAdmin a,
+.Content .Index .IndexProducts .NavCreateAdmin a,
+.Content .Index .IndexBrand .NavCreateAdmin a,
+.Content .Index .IndexAdmin .NavCreateAdmin a {
+  text-decoration: none;
+}
+
+.Content .Index .IndexImage .NavCreateAdmin:hover,
+.Content .Index .IndexProducts .NavCreateAdmin:hover,
+.Content .Index .IndexBrand .NavCreateAdmin:hover,
+.Content .Index .IndexAdmin .NavCreateAdmin:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Content .Index .IndexImage .TableAdmin,
+.Content .Index .IndexProducts .TableAdmin,
+.Content .Index .IndexBrand .TableAdmin,
+.Content .Index .IndexAdmin .TableAdmin {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Content .Index .IndexOrder .TableAdmin{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Content .Index .IndexOrder .TableAdmin tr td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 20%;
+}
+
+.Content .Index .IndexOrder .TableAdmin tr th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 20%;
+}
+
+.Content .Index .IndexOrder .TableAdmin tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.Content .Index .IndexOrder .TableAdmin tr:hover{
+  background-color: #ddd;
+}
+
+.Content .Index .IndexImage .TableAdmin tr td,
+.Content .Index .IndexProducts .TableAdmin tr td,
+.Content .Index .IndexBrand .TableAdmin tr td,
+.Content .Index .IndexAdmin .TableAdmin tr td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 20%;
+}
+
+.Content .Index .IndexImage .TableAdmin tr th,
+.Content .Index .IndexProducts .TableAdmin tr th,
+.Content .Index .IndexBrand .TableAdmin tr th,
+.Content .Index .IndexAdmin .TableAdmin tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 20%;
+}
+
+.Content .Index .IndexImage .TableAdmin tr:nth-child(even),
+.Content .Index .IndexProducts .TableAdmin tr:nth-child(even),
+.Content .Index .IndexBrand .TableAdmin tr:nth-child(even),
+.Content .Index .IndexAdmin .TableAdmin tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.Content .Index .IndexImage .TableAdmin tr:hover,
+.Content .Index .IndexProducts .TableAdmin tr:hover,
+.Content .Index .IndexBrand .TableAdmin tr:hover,
+.Content .Index .IndexAdmin .TableAdmin tr:hover {
+  background-color: #ddd;
+}
+
+.Content .Index .IndexImage .TableAdmin a,
+.Content .Index .IndexProducts .TableAdmin a,
+.Content .Index .IndexBrand .TableAdmin a,
+.Content .Index .IndexAdmin .TableAdmin a {
+  text-decoration: none;
+}
+
+.Content .Index .IndexBrand {
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow-x: hidden;
+}
+
+.Content .Index .IndexProducts {
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow-x: hidden;
+}
+
+.Content .Index .IndexImage {
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow-x: hidden;
+}
+.Content .Index .IndexOrder {
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow-x: hidden;
+}

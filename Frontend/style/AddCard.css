@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    padding-top: 20px;
+}
+
+.form .image{
+    margin-left: 50px;
+    padding-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px -10px;
+}
+
+.form .image img{
+    width: 500px;
+    height: 380px;
+}
+
+.form .DataOrder{
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px -10px;
+}
+
+.form .DataOrder .order{
+    display: flex;
+}
+
+.form .DataOrder .order .orderlabel{
+    width: 200px;
+    font-size: 20px;
+}
+
+.form .DataOrder .order .orderinput input{
+    width: 250px;
+    height: 30px;
+    border: 0.5px solid black;
+    
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form .DataOrder .order .ordertextareaprodes textarea{
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.form .DataOrder .buynow input{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+    padding: 0px 10px;
+}
